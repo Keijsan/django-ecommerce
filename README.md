@@ -3,7 +3,6 @@
 
 ## Installation
 * Clone project.
-* 
 <pre>
 
 git clone https://github.com/Keijsan/django-ecommerce.git
