@@ -1,9 +1,25 @@
 # django-ecommerce
-Create virtual environment if you want to. Install requirements (upgrade pip might solve some installation errors).
+<br>
+
+## Installation
+* Clone project.
+<pre>
+git clone https://github.com/Keijsan/django-ecommerce.git
+</pre>
+
+* Create virtual environment if you want to. Install requirements (upgrade pip might solve some installation errors).
+<pre>
 pip install -r requirements.txt
-Create a database name 'ecommerce'. You can change it on settings.py. Run these commands in terminal:
+</pre>
+
+* Create a database name 'ecommerce' with XAMPP. You can change it on settings.py. Run these commands in terminal:
+<pre>
 cd ecommerce
 py manage.py createsuperuser
 py manage.py migrate
-Run project:
+</pre>
+
+* Run project:
+<pre>
 py manage.py runserver 8888
+</pre>
